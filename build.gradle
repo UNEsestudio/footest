@@ -10,6 +10,7 @@ subprojects {
   apply plugin: 'java';
 
   repositories {
+    maven { url "http://hopper.une.edu.au:8081/artifactory/libs-release/" }
     mavenLocal()
     mavenCentral()
     maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
